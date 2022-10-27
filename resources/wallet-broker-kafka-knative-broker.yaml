@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: wallet-broker-kafka-knative-broker
+  description: kafka knative broker
+spec:
+  type: kafka-knative-broker
+  owner: developers
+  system: digital-wallet
+  subcomponentOf: resource:kafka-kafka
+  lifecycle: experimental
